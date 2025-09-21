@@ -1,14 +1,64 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: inherit;
+.container {
+  width: 1728px;
+  height: 1117px;
+  background-color: #e7eaee;
+  padding: 50px;
 }
 
-img,
-video {
-  display: block;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 511px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  width: 330px;
+  height: 56px;
+  gap: 20px;
+}
+
+.author img {
+  width: 56px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.information .name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.information .date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
 }
